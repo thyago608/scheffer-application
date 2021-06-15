@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --gray-100: #dfe4ea;
+
+  --brown-500: #3d3532;
+  --brown-700: #2d2b29;
+  --brown-800: #201f1e;
+
+  --orange-500: #aa371e;
+  --orange-800: #c7621a;
+  --orange-900: #f16110;
+
+  --white-900: #ffffff;
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  background: var(--brown-500);
+}
