@@ -1,0 +1,27 @@
+.main {
+  max-width: 1080px;
+  margin: 0 auto;
+  height: calc(100vh - 200px);
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.main section {
+  width: 15rem;
+  height: 15rem;
+}
+
+@media (max-width: 720px) {
+  .main {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    height: auto;
+  }
+
+  .main section:last-child {
+    margin-bottom: 2rem;
+  }
+}
