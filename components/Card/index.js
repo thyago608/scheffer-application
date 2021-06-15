@@ -9,7 +9,7 @@ export function Card(props) {
         </h1>
       </header>
       <div className={styles.infoBox}>
-        <span>{props.title}</span>
+        <span className={styles.title}>{props.title}</span>
         {props.description && <span>{props.description}</span>}
         {props.completionDate && <span>{props.completionDate}</span>}
       </div>
